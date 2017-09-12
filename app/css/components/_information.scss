@@ -1,0 +1,33 @@
+//  Information content Styles
+
+.information-wrapper {
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+.information-content {
+    h3 {
+        margin-top: 30px;
+    }
+
+    .media-heading {
+        margin-top: 15px;
+    }
+}
+
+.information-image {
+    img {
+        margin: 50px 0;
+        max-width: 100%;
+    }
+}
+
+@media #{$media-sm} {
+    .information-content {
+        h3 {
+            margin-top: 50px;
+        }
+    }
+}
+
+

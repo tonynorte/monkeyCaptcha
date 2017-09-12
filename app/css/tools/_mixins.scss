@@ -1,0 +1,23 @@
+// @group Mixins
+
+// Applies font-awesome font stack
+// @param {numer} $fontSize      - font-size property
+// @param {number} $lineHeight   - line-height property
+// @param {string} $fontStyle    - font-style property
+// @param {string} $fontVariant  - font-variant property
+// @param {string} $fontWeight   - font-weight property
+
+@mixin fontAwesome($fontSize, $lineHeight, $fontStyle: normal, $fontVariant: normal, $fontWeight: normal) {
+    font: $fontStyle $fontVariant $fontWeight #{$fontSize}/#{$lineHeight} FontAwesome;
+}
+
+// Adds vendor prefix to non-standard properties
+// @param {string} $name              - Property name
+// @param {string | number} $argument - Property value
+@mixin vendor-prefix($name, $argument) {
+    -webkit-#{$name}: #{$argument};
+    -ms-#{$name}: #{$argument};
+    -moz-#{$name}: #{$argument};
+    -o-#{$name}: #{$argument};
+    #{$name}: #{$argument};
+}

@@ -1,0 +1,28 @@
+{{#extend "layouts/page"}}
+
+    {{!-- Set the page title --}}
+    {{#content "title"}}RedCat 2.0 | Home{{/content}}
+
+    {{!-- Set the page content --}}
+    {{#content "content"}}
+    <div class="row">
+        <div class="col-12-xs">
+            <h2 class="align-center">Monkey CAPTCHA</h2>
+            <p>please select the <span id="text-to-select"></span></p>
+            <div class="information-wrapper">
+            <!-- The order of this images are going to change in a random way, the attribute of the tags are going to be used to say which option is required to be selected, the attribute answer is true when is correct  -->
+                <ul id='monkey-captcha' answer='false'>
+                    <li><a href="#" class="options"><img src="images/cat.png" alt="Cat"></a></li>
+                    <li><a href="#" class="options"><img src="images/car.png" alt="Car"></a></li>
+                    <li><a href="#" class="options"><img src="images/clip.png" alt="Clip"></a></li>
+                    <li><a href="#" class="options"><img src="images/cloud.png" alt="Cloud"></a></li>
+                    <li><a href="#" class="options"><img src="images/house.png" alt="House"></a></li>
+                </ul>
+                <a id="btn-refresh" href="#" ></a>
+            </div> 
+        </div>
+    </div>
+        
+    {{/content}}
+
+{{/extend}}

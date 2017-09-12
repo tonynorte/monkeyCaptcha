@@ -1,0 +1,27 @@
+#monkey-captcha{
+    padding: 0;
+	-webkit-transition-delay: 2s; /* Safari */
+	transition-delay: 2s;
+	
+	li {
+		display: inline-block;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+#text-to-select {
+	color: $primary-color;
+    font-weight: bold;
+}
+
+#btn-refresh {
+    background: url(../images/refresh.png) no-repeat 38% 50%;
+    width: 21px;
+    height: 22px;
+    background-color: $primary-color;
+    display: block;
+    border-radius: 10px;
+}

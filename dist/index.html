@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]> <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]> <html lang="en" class="ie gt-ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>RedCat 2.0 | Home</title>
+    <link href="css/libraries.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.ico" />
+    <!--[if lt IE 9]>
+            <script src="js/ie-shims.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top navbar-redcat">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                                <img alt="" src="images/logo.png" />
+                                <span class="red-text">Red</span>Cat 2.0
+                            </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="wrapper container">
+        <div class="row">
+            <div class="row">
+                <div class="col-12-xs">
+                    <h2 class="align-center">Monkey CAPTCHA</h2>
+                    <p>please select the <span id="text-to-select"></span></p>
+                    <div class="information-wrapper">
+                        <!-- The order of this images are going to change in a random way, the attribute of the tags are going to be used to say which option is required to be selected, the attribute answer is true when is correct  -->
+                        <ul id='monkey-captcha' answer='false'>
+                            <li><a href="#" class="options"><img src="images/cat.png" alt="Cat"></a></li>
+                            <li><a href="#" class="options"><img src="images/car.png" alt="Car"></a></li>
+                            <li><a href="#" class="options"><img src="images/clip.png" alt="Clip"></a></li>
+                            <li><a href="#" class="options"><img src="images/cloud.png" alt="Cloud"></a></li>
+                            <li><a href="#" class="options"><img src="images/house.png" alt="House"></a></li>
+                        </ul>
+                        <a id="btn-refresh" href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <footer>
+                <div class="text-center">
+                    <p>Copyright &copy; 2017, All Rights Reserved</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="js/libraries.js"></script>
+    <script src="js/site.js"></script>
+</body>
+
+</html>

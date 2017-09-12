@@ -1,0 +1,19 @@
+// Global Styles
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    color: $body-default-text-color;
+    background: $body-default-background;
+    margin-top: 55px;
+}
+
+.red-text {
+    color: $red;
+}
+
+@media #{$media-sm} {
+    body {
+        margin-top: 70px;
+    }
+}

@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #646464;
+  background: #f4f4f4;
+  margin-top: 55px;
+}
+
+.red-text {
+  color: #ea392d;
+}
+
+.navbar-redcat {
+  background: #fff;
+  height: 56px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.navbar-redcat .navbar-header {
+  float: left;
+  margin-left: 0;
+}
+
+.navbar-redcat .navbar-brand {
+  height: 55px;
+  line-height: 55px;
+  padding: 0;
+  font-size: 18px;
+  color: #525252;
+}
+
+.navbar-redcat .navbar-brand > img {
+  display: inline-block;
+  width: 35px;
+  margin-right: 5px;
+}
+
+.navbar-redcat .navbar-right {
+  float: right;
+  line-height: 55px;
+}
+
+.navbar-redcat .navbar-right > img {
+  width: 77px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #212121;
+  color: #fff;
+}
+
+.information-wrapper {
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.information-content h3 {
+  margin-top: 30px;
+}
+
+.information-content .media-heading {
+  margin-top: 15px;
+}
+
+.information-image img {
+  margin: 50px 0;
+  max-width: 100%;
+}
+
+#monkey-captcha {
+  padding: 0;
+  -webkit-transition-delay: 2s;
+  /* Safari */
+  transition-delay: 2s;
+}
+
+#monkey-captcha li {
+  display: inline-block;
+}
+
+#monkey-captcha a {
+  color: white;
+}
+
+#text-to-select {
+  color: #3e8529;
+  font-weight: bold;
+}
+
+#btn-refresh {
+  background: url(../images/refresh.png) no-repeat 38% 50%;
+  width: 21px;
+  height: 22px;
+  background-color: #3e8529;
+  display: block;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin-top: 70px;
+  }
+
+  .navbar-redcat {
+    height: 71px;
+  }
+
+  .navbar-redcat .navbar-brand {
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+  }
+
+  .navbar-redcat .navbar-brand > img {
+    width: 50px;
+  }
+
+  .navbar-redcat .navbar-right {
+    line-height: 65px;
+  }
+
+  .navbar-redcat .navbar-right > img {
+    width: 125px;
+  }
+
+  .information-content h3 {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,36 @@
+// @group Variables
+
+// Fonts
+$font-size-base: 14px;
+$font-family-base: Arial, Helvetica, sans-serif;
+
+// Media Queries
+$screen-xs-min: 320px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-sm-max: ($screen-md-min - 1);
+$screen-md-max: ($screen-lg-min - 1);
+
+$media-xs: "only screen and (min-width: #{$screen-xs-min})";
+$media-sm: "only screen and (min-width: #{$screen-sm-min})";
+$media-md: "only screen and (min-width: #{$screen-md-min})";
+$media-lg: "only screen and (min-width: #{$screen-lg-min})";
+
+// Color Palette
+$body-default-text-color: #646464;
+$body-default-background: #f4f4f4;
+
+$black: #000;
+$white: #fff;
+$red: #ea392d;
+$gray-medium: #9e9e9e;
+$dark-gray: #525252;
+$footer-bg: #212121;
+$black-box-shadow: rgba(0, 0, 0, 0.16);
+
+$primary-color: #3e8529;
+
+//Backgrounds
